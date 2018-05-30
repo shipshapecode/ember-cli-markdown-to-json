@@ -20,8 +20,7 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "broccoli-merge-trees": "^3.0.0",
-    "broccoli-static-site-json": "^2.0.1",
+    "broccoli-static-site-json": "rwwagner90/broccoli-static-site-json#e8489f420f51a697a52692d5ebd64a5088983996",
     "ember-cli-babel": "^6.6.0"
   },
   "devDependencies": {
