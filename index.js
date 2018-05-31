@@ -8,11 +8,12 @@ module.exports = {
     this._super.treeForPublic && this._super.treeForPublic.apply(this, arguments);
 
     if (this.app.options && this.app.options['ember-cli-markdown-to-json']) {
-      const { attributes, collections, folder } = this.app.options['ember-cli-markdown-to-json'];
+      const { attributes, collections, contentTypes, folder } = this.app.options['ember-cli-markdown-to-json'];
 
       return new StaticSiteJson(folder, {
         attributes,
-        collections
+        collections,
+        contentTypes: contentTypes || ['content', 'description', 'html']
       });
     }
   }
