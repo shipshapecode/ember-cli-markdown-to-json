@@ -1,6 +1,8 @@
 ember-cli-markdown-to-json
 ==============================================================================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/shipshapecode/ember-cli-markdown-to-json.svg)](https://greenkeeper.io/)
+
 An addon that wraps broccoli-static-site-json, to generate json files from markdown.
 
 Installation
