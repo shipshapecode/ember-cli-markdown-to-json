@@ -1,13 +1,17 @@
 {
   "name": "ember-cli-markdown-to-json",
   "version": "0.0.5",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Convert markdown to JSON for your Ember app.",
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": "https://github.com/shipshapecode/ember-cli-markdown-to-json",
   "license": "MIT",
-  "author": "",
+  "author": {
+    "name": "Robert Wagner",
+    "email": "rwwagner90@gmail.com",
+    "url": "https://github.com/rwwagner90"
+  },
   "directories": {
     "doc": "doc",
     "test": "tests"
