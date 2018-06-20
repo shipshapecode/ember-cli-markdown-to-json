@@ -3,7 +3,12 @@
   "version": "0.0.5",
   "description": "Convert markdown to JSON for your Ember app.",
   "keywords": [
-    "ember-addon"
+    "blog",
+    "ember-addon",
+    "markdown",
+    "markdown-to-html",
+    "markdown-to-json",
+    "static-site-generator"
   ],
   "repository": "https://github.com/shipshapecode/ember-cli-markdown-to-json",
   "license": "MIT",
