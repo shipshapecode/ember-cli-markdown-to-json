@@ -16,22 +16,45 @@ Usage
 
 ```javascript
 // ember-cli-build.js
-'ember-cli-markdown-to-json': {
-  attributes: [
-    'author',
-    'authorId',
-    'categories',
-    'date',
-    'slug',
-    'title'
-  ],
-  collections: [{
-    src: 'blog',
-    output: 'blog.json'
-  }],
-  contentTypes: ['content', 'description', 'html'],
-  folder: 'blog'
-}
+'ember-cli-markdown-to-json': [
+  {
+    attributes: [
+      'categories',
+      'date',
+      'slug',
+      'title'
+    ],
+    collections: [{
+      src: 'blog/posts',
+      output: 'posts.json'
+    }],
+    contentFolder: 'post',
+    contentTypes: ['description', 'html'],
+    folder: 'blog/posts',
+    references: ['author'],
+    type: 'post'
+  },
+  { 
+    attributes: [
+      'name',
+      'image',
+      'coverImage',
+      'coverMeta',
+      'bio',
+      'website',
+      'twitter',
+      'facebook',
+      'location'
+    ],
+    contentFolder: 'author',
+    collections: [{ 
+      src: 'blog/authors',
+      output: 'authors.json' 
+    }],
+    folder: 'blog/authors',
+    type: 'author'
+  }
+]
 ```
 
 License
