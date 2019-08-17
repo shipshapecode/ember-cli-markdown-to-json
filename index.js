@@ -4,7 +4,7 @@ const MergeTrees = require('broccoli-merge-trees');
 const StaticSiteJson = require('broccoli-static-site-json');
 
 module.exports = {
-  name: 'ember-cli-markdown-to-json',
+  name: require('./package').name,
   treeForPublic() {
     this._super.treeForPublic && this._super.treeForPublic.apply(this, arguments);
 

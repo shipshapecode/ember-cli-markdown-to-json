@@ -3,13 +3,21 @@ ember-cli-markdown-to-json
 
 An addon that wraps broccoli-static-site-json, to generate json files from markdown.
 
+
+Compatibility
+------------------------------------------------------------------------------
+
+* Ember.js v3.4 or above
+* Ember CLI v2.13 or above
+* Node.js v8 or above
+
+
 Installation
 ------------------------------------------------------------------------------
 
 ```
 ember install ember-cli-markdown-to-json
 ```
-
 
 Usage
 ------------------------------------------------------------------------------
@@ -56,6 +64,11 @@ Usage
   }
 ]
 ```
+
+Contributing
+------------------------------------------------------------------------------
+
+See the [Contributing](CONTRIBUTING.md) guide for details.
 
 License
 ------------------------------------------------------------------------------
